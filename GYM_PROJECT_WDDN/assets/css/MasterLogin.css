@@ -1,0 +1,85 @@
+﻿main .Login_Div{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color:green;
+    height : 700px;
+}
+
+.Login_Div #form1 {
+    border: 3px solid #f1f1f1;
+    border-radius: 20px;
+    background-color:red;
+}
+
+.Login_Div input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.Login_Div button:hover {
+    opacity: 0.8;
+}
+
+.Login_Div .cnbtn {
+    background-color: lightgrey;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 49%;
+    font-family: Consolas;
+    font-size: 20px;
+}
+
+.Login_Div .lgnbtn {
+    background-color: grey;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    font-family: Consolas;
+    font-size: 20px;
+}
+
+.Login_Div .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+.Login_Div img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.Login_Div .login_container {
+    padding: 16px;
+}
+
+.Login_Div span.psw {
+    float: right;
+    padding-top: 16px;
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    .Login_Div span.psw {
+        display: block;
+        float: none;
+    }
+
+    .Login_Div .cnbtn {
+        width: 100%;
+    }
+}
+
+.frmalg {
+    margin-left: 2%;
+    margin-top: 10%;
+    width: 40%;
+}
